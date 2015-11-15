@@ -1,0 +1,10 @@
+/**/
+
+.caption{
+    font-size: 18px;
+    text-align: center;
+}
+
+.thumbnail img{
+    max-height: 350px;
+}

@@ -582,12 +582,3 @@ p {
 
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
-
-
-
-
-/**/
-
-.caption{
-    text-align: center;
-}
