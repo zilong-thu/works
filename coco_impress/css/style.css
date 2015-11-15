@@ -1,7 +1,23 @@
 /**/
+.font-kaiti{
+    font-family: "STKaiti", "KaiTi";
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+}
+
 h1.title{
-    font-size: 72px;
+    font-size: 80px;
     text-align: center;
+}
+
+h1, h2, h3{
+    font-family: "STKaiti", "KaiTi";
 }
 
 .caption{
@@ -39,10 +55,4 @@ img.corner{
 
 .text-right{
     text-align: right;
-}
-
-
-
-.font-kaiti{
-    font-family: "KaiTi";
 }
