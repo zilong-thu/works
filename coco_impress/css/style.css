@@ -1,4 +1,7 @@
 /**/
+h1{
+    font-size: 48px;
+}
 
 .caption{
     font-size: 18px;
@@ -7,4 +10,17 @@
 
 .thumbnail img{
     max-height: 350px;
+}
+
+img.corner{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.text-center{
+    text-align: center;
 }
