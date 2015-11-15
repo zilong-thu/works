@@ -1,11 +1,23 @@
 /**/
-h1{
-    font-size: 48px;
+h1.title{
+    font-size: 72px;
+    text-align: center;
 }
 
 .caption{
     font-size: 18px;
     text-align: center;
+}
+
+.versus{
+    font-size: 0.6em;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: #68EF72;
+    color: #fff;
 }
 
 .thumbnail img{
@@ -28,6 +40,8 @@ img.corner{
 .text-right{
     text-align: right;
 }
+
+
 
 .font-kaiti{
     font-family: "KaiTi";

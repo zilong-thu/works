@@ -233,7 +233,6 @@ p {
 }
 
 #title h1 {
-    font-size: 2em;
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
