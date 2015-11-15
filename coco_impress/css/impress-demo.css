@@ -268,7 +268,7 @@ p {
     ... so we define display to `inline-block` to enable transforms and
     transition duration to 0.5s ...
 */
-#ing b {
+.ing b{
     display: inline-block;
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
@@ -281,7 +281,7 @@ p {
     ... and we want 'positioning` word to move up a bit when the step gets
     `present` class ...
 */
-#ing.present .positioning {
+.present .positioning {
     -webkit-transform: translateY(-10px);
     -moz-transform:    translateY(-10px);
     -ms-transform:     translateY(-10px);
@@ -292,7 +292,7 @@ p {
 /*
     ... 'rotating' to rotate a quarter of a second later ...
 */
-#ing.present .rotating {
+.present .rotating {
     -webkit-transform: rotate(-10deg);
     -moz-transform:    rotate(-10deg);
     -ms-transform:     rotate(-10deg);
@@ -309,7 +309,7 @@ p {
 /*
     ... and 'scaling' to scale down after another quarter of a second.
 */
-#ing.present .scaling {
+.present .scaling {
     -webkit-transform: scale(0.7);
     -moz-transform:    scale(0.7);
     -ms-transform:     scale(0.7);
